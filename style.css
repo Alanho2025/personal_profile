@@ -1,0 +1,35 @@
+body{
+    font-family: 'Helvetica New', Courier, monospace;
+    background-color: rgb(205, 244, 247);
+}
+h2{
+    font-size:30px;
+}
+p, input, legend, table > *{
+    font-size:20px;
+}
+strong{
+    color:red;
+    text-decoration: underline;
+}
+#answer{
+    display: none;
+}
+#toggletable:checked ~ #answer {
+    display: table;
+}
+table{
+    margin:auto;
+    border-radius: 3px;
+    text-align: justify;
+}
+tr,th{
+    border: 1px dotted black;
+    word-wrap: break-word; 
+    white-space: wrap; 
+    table-layout: fixed; 
+    border-collapse: collapse;
+}
+fieldset p{
+    margin-bottom: 5px;
+}

@@ -1,0 +1,31 @@
+*{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+body{
+    background-color: rgb(230, 222, 222);
+}
+h1, h2, h4{
+    text-align: center;
+    color:rgb(237, 152, 48);
+}
+h3{
+    color:rgb(7, 132, 63);
+}
+a, p{
+    text-align: justify;
+    color: blueviolet;
+}
+img{
+    display:block;
+    margin: left;
+}
+ul{
+    border:1px dotted beige;
+    color: rgb(218, 70, 220);
+}
+#contact p{
+    color: rgb(155, 57, 157);
+}

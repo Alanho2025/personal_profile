@@ -1,0 +1,44 @@
+*{
+    font-family: 'Helvetica New';
+    color:aliceblue;
+    margin: 5px;
+    padding: 2px;
+    text-shadow: 0.5px 1px rgb(165, 161, 161);
+}
+textarea,select, table input{
+    color: rgb(240, 98, 22);
+    background-color: aquamarine;
+
+}
+strong{
+    text-decoration: underline;
+    color: rgb(240, 135, 22);
+}
+body{
+    background-image: url("./bigleaves.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+th,tr{
+    border:1px dotted rgb(22, 138, 240);
+    border-collapse: collapse;
+    text-align: left;
+    color:aquamarine
+}
+h1{
+    text-align: center;
+}
+.heading{
+    border:1px dotted rgb(207, 227, 244);
+}
+div h2,div p{
+    color:aqua;
+} 
+h2{
+    font-size: 30px;
+}
+button input{
+    background-color: rgba(255, 255, 255, 0.75);
+    color:black;
+    border-radius: 50%;
+}

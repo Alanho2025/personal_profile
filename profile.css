@@ -1,0 +1,123 @@
+body{
+    position: relative;
+    background-image: url("./asset/background.jpeg");
+    font-family: 'Helvetica New';
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgba(255, 255, 255, 0.2); /* 半透明背景色 */
+    background-blend-mode: lighten; /* 讓圖片與顏色融合 */
+    padding:20px;
+}
+
+h1{
+    font-family:'Montserrat';
+    text-align: center;
+    font-size: 120px;
+    margin:auto;
+    margin-bottom: 40px;
+    color:rgb(131, 8, 232);
+    text-shadow: 2px 2px 3px rgb(174, 151, 220);
+}
+.webpage_link{
+    display:flex;
+    flex-direction: row;
+    background-color: #9278cf;
+    margin: auto;
+}
+.webpage_link h2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    font-size: 40px;
+    color:rgb(62, 195, 236);
+    text-shadow: 2px 2px 3px rgb(43, 21, 124);
+    word-wrap: break-word;
+    white-space: nowrap; 
+    margin-left: 200px;
+}
+.first_block{
+    border:2px dotted aliceblue;
+    display: flex;
+    flex-direction: row;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+strong{
+    font-size: 100px;
+}
+.first_block h2{
+    font-size: 50px;
+    color:rgb(225, 134, 244);
+    text-shadow: 2px 2px 3px rgb(112, 27, 91);
+}
+img{
+    width:300px;
+    margin-left: 50px;
+    margin-right: 100px;
+    border-radius:50%;
+}
+.about{
+    border:2px solid aqua;
+    padding:20px;
+    color:rgb(97, 6, 100);
+    text-shadow: 3px 3px 2px rgb(167, 101, 184);
+    border-radius: 20px;
+}
+.about h2{
+    font-size: 40px;
+    font-family:'Montserrat';
+}
+.about h3{
+    font-family:'Montserrat';
+    padding-left: 50px;
+    font-size: 30px;
+    
+}
+.about h4{
+    font-family:'Montserrat';
+    padding-left: 80px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.about p{
+    padding-left: 150px;
+    font-size: 30px;
+}
+.habit{
+    margin-top:30px;
+    border:2px dotted rgb(116, 31, 177);
+    border-radius: 20px;
+}
+.habit h3,li{
+    font-size: 30px;
+    color:rgb(97, 6, 100);
+    text-shadow: 3px 3px 2px rgb(167, 101, 184);
+}
+.habit h3{
+    margin:30px;
+    padding-left: 50px;
+}
+li{
+    margin-left: 80px;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    grid-template-rows: auto auto;
+    font-size: 30px;
+    color:rgb(97, 6, 100);
+    text-shadow: 3px 3px 2px rgb(167, 101, 184);
+    word-wrap: break-word;
+    white-space: nowrap; 
+}
+
+td,tr,th{
+    border: 1px dotted aquamarine;
+    border-collapse: collapse;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+}

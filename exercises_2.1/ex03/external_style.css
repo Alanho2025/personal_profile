@@ -1,0 +1,43 @@
+body{
+    width: 50%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+
+
+h1,h2,h3,strong{
+    color : Plum;
+}
+h1, h3{
+    text-align: center;
+}
+h1{
+    text-transform:uppercase;
+}
+h2{
+    text-align: right;
+    border-bottom: 1px solid LightSlateGray;
+    
+}
+hr{
+    border-style: dotted;
+    width: 50%;
+}
+hr,p{
+    color:DarkSlateGray;
+    font-family: Georgia,serif;
+
+}
+p{
+    text-align: justify;
+    font-style: italic;
+}
+#big-achievement{
+    color:red;
+}
+h1.bold, h2.bold, h3.bold{
+    font-weight: bold;
+}

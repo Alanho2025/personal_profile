@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>New students school experience questionare</title>
+    <link rel="stylesheet" href="./question.css">
+</head>
+
+<body>
+    <h1>New students school experience questionare</h1>
+    <div class=heading>
+        <h2>Introduction</h2>
+        <p>This questionare is for you to understand and get familiar with University of Auckland, please take <strong>30 minutes</strong> to
+        complete</p>
+    </div>
+    
+    <form action="https://echo.trex-sandwich.com" method="post">
+        <fieldset>
+            <legend>Your personal detail</legend>
+            <table>
+                <tr>
+                    <th><label for="full name"> Full name:</label></th>
+                    <th><textarea id="Full_name" name="full name" rows="1" cols="40"
+                            placeholder="please type your full name"> </textarea></th>
+                </tr>
+                <tr>
+                    <th><label for="gender"> Gender:</label></th>
+                    <th><select name:gender>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Gender diversity</option>
+                    </th>
+                </tr>
+                <tr>
+                    <th><label for="Nationality"> Nationality:</label></th>
+                    <th><input type="text" name="Nationality" size="15" maxlength="40"></th>
+                </tr>
+                <tr>
+                    <th><label for="Faulty"> Faulty:</label></th>
+                    <th><input type="text" name="Faulty" size="15" maxlength="40"></th>
+                </tr>
+                <tr>
+                    <th><label for="Major"> Major:</label></th>
+                    <th><input type="text" name="Major" size="15" maxlength="40"></th>
+                </tr>
+                <tr>
+                    <th><label for="ID"> Campus ID:</label></th>
+                    <th><input type="text" name="ID" size="15" maxlength="40"></th>
+                </tr>
+                <tr>
+                    <th><label for="Email"> Email address:</label></th>
+                    <th><input type="text" name="Email" size="15" maxlength="40"></th>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Question</legend>
+            <p> 1. How did you learn about the University of Auckland? (Multiple choice)</p>
+            <input type="checkbox" name="Question_1" value="University website" />University website
+            <input type="checkbox" name="Question_1" value="ecommendation from friends or family" />Recommendation from
+            friends or family
+            <input type="checkbox" name="Question_1" value="Social media" />Social media
+            <input type="checkbox" name="Question_1" value="Education fair/admission seminar" />Education fair/admission
+            seminar
+            <p>2. Do you need English language support from the university? (Single choice)</p>
+            <input type="radio" name="Question_2" value="Yes" />Yes
+            <input type="radio" name="Question_2" value="No" />No
+            <input type="radio" name="Question_2" value="Not Sure" />Not sure
+            <p>3. How satisfied are you with the teaching environment at the University of Auckland? (Single choice)</p>
+            <input type="radio" name="Question_3" value="Very satisfied" />Very satisfied
+            <input type="radio" name="Question_3" value="Satisfied" />Satisfied
+            <input type="radio" name="Question_3" value="Neutral" />Neutral
+            <input type="radio" name="Question_3" value="Dissatisfied" />Dissatisfied
+            <input type="radio" name="Question_3" value="Very dissatisfied" />Very dissatisfied
+            <p>4. How satisfied are you with the sport center at the University of Auckland? (Single choice)</p>
+            <input type="radio" name="Question_4" value="Very satisfied" />Very satisfied
+            <input type="radio" name="Question_4" value="Satisfied" />Satisfied
+            <input type="radio" name="Question_4" value="Neutral" />Neutral
+            <input type="radio" name="Question_4" value="Dissatisfied" />Dissatisfied
+            <input type="radio" name="Question_4" value="Very dissatisfied" />Very dissatisfied
+            <p> 5. What are the biggest challenges you have faced? (Multiple choice)</p>
+            <input type="checkbox" name="Question_5" value="Language barrier" />anguage barrier
+            <input type="checkbox" name="Question_5" value="Academic pressure" />Academic pressure
+            <input type="checkbox" name="Question_5" value="Cultural adaptation" />Cultural adaptation
+            <input type="checkbox" name="Question_5" value="Difficulty making friends" />Difficulty making friends
+            <input type="checkbox" name="Question_5" value="Accommodation issues" />Accommodation issues
+            <p> 6. What services do you know in the campus?(Multiple choice)</p>
+            <input type="checkbox" name="Question_5" value="Health center" />Health center (Mental and physcial
+            consulting)
+            <input type="checkbox" name="Question_5" value="Student Hub" />Student Hub
+            <input type="checkbox" name="Question_5" value="Queerspace" />Queerspace
+            <input type="checkbox" name="Question_5" value="Womenspace" />Womenspace
+            <input type="checkbox" name="Question_5" value="Learning Hub" />Learning Hub(free English)
+            <input type="checkbox" name="Question_5" value="Library services" />Library services (free English)
+            <input type="checkbox" name="Question_5" value="ASUA" />ASUA
+            <input type="checkbox" name="Question_5" value="Career services" />Career services
+            <input type="checkbox" name="Question_5" value="Huwa" />Huwa
+            <p>7. What Auckland activities have you participated in? (Multiple choice)</p>
+            <input type="checkbox" name="Question_5" value="Orientation events" />Orientation events
+            <input type="checkbox" name="Question_5" value="Student club expo" />Student club expo
+            <input type="checkbox" name="Question_5" value="Sports teams or fitness activities" />Sports teams or
+            fitness activities
+            <input type="checkbox" name="Question_5" value="Cultural festivals" />Cultural festivals
+            <p>8. How would you rate campus facilities (e.g., library, gym, student center)? (Single choice)</p>
+            <input type="radio" name="Question_3" value="Excellent" />Excellent
+            <input type="radio" name="Question_3" value="Good" />Good
+            <input type="radio" name="Question_3" value="Average" />Average
+            <input type="radio" name="Question_3" value="Poor" />Poor
+            <input type="radio" name="Question_3" value="Very poor" />Very poor
+            <p>9. What is your current accommodation situation in Auckland? (Single choice)</p>
+            <input type="radio" name="Question_3" value="University dormitory" />University dormitory
+            <input type="radio" name="Question_3" value="Off-campus rental" />Off-campus rental
+            <input type="radio" name="Question_3" value="Homestay" />Homestay
+            <p>10. What are your plans after graduation? (Single choice)</p>
+            <input type="radio" name="Question_3" value="Work in New Zealand" />Work in New Zealand
+            <input type="radio" name="Question_3" value="Return to home country for work" />Return to home country for
+            work
+            <input type="radio" name="Question_3" value="Further study" />Further study
+
+        </fieldset>
+        <button><input type="button" name="submit" value="Submit"></button>
+        <button> <input type="reset" name="reset" value="Redo"></button>
+    </form>
+    <a href="Portfolio.html"><h2>My Portfolio</h2></a>
+</body>
+</html>

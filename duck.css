@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Ephesis-Regular";
+    src: url("./assets/fonts/Ephesis-Regular.ttf");
+}
+h1{
+    background-color: #cb997e;
+    text-align: center;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    font-family: 'Ephesis-Regular';
+    line-height: 4em;
+    color:#6b705c;
+    text-shadow: 2px 2px rgba(7, 73, 59, 0.2);
+}
+#nav{
+    background-color: #6b705c;
+    text-align: center;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    line-height: 3em;
+}
+br{
+    background-color: #6b705c;
+}
+table{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-width: 2px;
+    width: 100%;
+    min-width: 400px;
+    max-width:100%;
+
+}
+th,tr, td{
+    border-style:ridge;
+    width: auto;
+    text-shadow: 1px 1px rgba(7, 73, 59, 0.2);
+}
+tr{
+    max-width:100%;
+}
+thead{
+    text-align: left;
+}
+a{
+    margin:60px;
+    font-family: 'Ephesis-Regular';
+    padding-right: 4%;
+}
+h2{
+    margin-top:0%;
+    padding-top: 15px;
+    line-height:3.5em;
+    text-align: center;
+    font-family: 'Ephesis-Regular';
+    text-shadow: 2px 2px rgba(7, 73, 59, 0.2);
+}
+div.main{
+    background-color: #ffe8d6;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    font-family: 'Ephesis-Regular';
+    padding-bottom: 3%;
+}
+
+.table_1{
+    background-color: #cb997e;
+}
+.table_2{
+    background-color: #ffe8d6;
+}
+div{
+    background-color:#b7b7a4;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 #b7b7a4, 0 2px 5px 0 #929292;
+}
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    text-shadow: 2px 2px rgba(7, 73, 59, 0.2);
+}
+.imagehead_2{
+    height:25px;
+}
+.imagehead_1{
+    height:25px;
+    transform: scaleX(-1);
+}
+.body_image{
+    display:block;
+    margin:auto;
+    width:250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: auto;
+    padding-top: 0%;
+}
+body{
+    background-image: url("./assets/images/Spinning_Duck.gif");
+    background-color: (0, 0, 0, 0.5);
+    background-size: 150px;
+}
+.body_image:hover{
+    width:400px;
+}

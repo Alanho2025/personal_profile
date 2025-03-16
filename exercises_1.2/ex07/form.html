@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Questionnaire</title>
+</head>
+
+<body>
+
+    <!-- TODO Your form here. -->
+    <form action="https://echo.trex-sandwich.com" method = "post">
+        <fieldset>
+            <legend> Your details</legend> 
+            <p> Name: <br /> <input type = "text" name = "name" size="15" maxlength="30" /></p>
+            <p> Email: <br /><input type = "text" name = "name" size="15" maxlength="30" /></p>
+            <p> Your city: <br /><input type = "text" name = "name" size="15" maxlength="30" /></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Questionnaire</legend>
+            <p> How are you finding this course? Tick all applicable <br />
+                <input type = "checkbox" name="finding" value= "Enjoying it" />Enjoying it
+                <input type = "checkbox" name="finding" value= "Challenging" />Challenging
+                <input type = "checkbox" name="finding" value= "Still catching up" />Still catching up
+                <input type = "checkbox" name="finding" value= "Too hard" />Too hard
+                <input type = "checkbox" name="finding" value= "Too many exercise" />Too many exercise
+                <input type = "checkbox" name="finding" value= "Not enough exercise" />Not enough exercise
+                <input type = "checkbox" name="finding" value= "Confused" />Confused
+            </p> <br />
+            <p>
+                Choose the one that best describes your experience so far <br />
+                <input type = "radio" name="experience" value= "Learning a lot" />Learning a lot
+                <input type = "radio" name="experience" value= "Not learning enough" />Not learning enough
+                <input type = "radio" name="experience" value= "Okay" />Okay
+            </p>
+            <p>
+                pick your favorite animal:
+                <select name="animal">
+                    <option>Mandarin duck</option>
+                    <option>Quokka</option>
+                    <option>Wombat</option>
+                    <option>Lynx</option>
+                    <option>Pika</option>
+                    <option>Red Panda</option>
+                </select>
+            </p>
+            <p>
+            <textarea id="profile_text" name = "profile_text_area" rows = "4" cols = "40" placeholder="Additional comments here"> </textarea>
+            </p>
+        </fieldset>
+        <button><input type="submit" value="Done!"> </button></a>
+        <button> <input type="reset" value="Clear!" /></button>
+    </form>
+</body>
+
+</html>
